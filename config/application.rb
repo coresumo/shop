@@ -8,6 +8,14 @@ Bundler.require(*Rails.groups)
 
 module Stage2
   class Application < Rails::Application
+  	config.action_mailer.smtp_settings = {
+    address:              'smtp.gmail.com',
+    port:                 587,
+    domain:               'my_app.com',
+    user_name:            ENV['GMAIL_USERNAME'],
+    password:             ENV['GMAIL_PASSWORD'],
+    authentication:       'plain',
+    enable_starttls_auto: true  }
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
 

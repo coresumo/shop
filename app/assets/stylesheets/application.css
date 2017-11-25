@@ -21,7 +21,40 @@
 	font-weight: bold;
 	margin-left: 4px;
 }
+.btn-group{
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+	user-select: none;
+    border: 1px solid transparent;
+	padding: 7px 11px;    
+	font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+	touch-action: manipulation;
+	box-sizing: border-box;
+	text-decoration-color: white;
+	color: #fff;
 
+    background-color: #dc3545; /* Green */
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn-group a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.btn-group:hover{
+	color: #fff;
+
+}
 
 padding-right: 30px;
 
