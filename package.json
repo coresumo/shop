@@ -1,5 +1,7 @@
 {
   "name": "stage2",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "npm": "^5.5.1"
+  }
 }
