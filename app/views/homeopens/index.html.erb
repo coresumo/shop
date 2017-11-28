@@ -16,7 +16,7 @@
     <link href="assets/stylesheet/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/stylesheet/bootstrap-responsive.css" rel="stylesheet">
         
-
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
     <!-- Custom styles for this template -->
 
@@ -59,21 +59,22 @@
             <div class="btn-group">
             <%= link_to "Logout", destroy_user_session_path, method: :delete %>
                 
-                <% else %>
-                 <% link_to "sign in", new_user_session_path %>
-                  <% link_to "sign UP", new_user_registration_path %>
-             <% end %>
-
+            <% else %>
             <li class="nav-item">
-            <a href="users/sign_in" class="btn btn-danger" role="button">Login</a>
-	       		<li class="nav-item">
-            <a href="users/sign_up" class="btn btn-danger" role="button">Signup</a>
-    
+              <div class="btn-group">
+            <%= link_to "Login", new_user_session_path %>
+                
+            <li class="nav-item">
+              <div class="btn-group">
+            <%= link_to "Signup", new_user_registration_path %>
+            <% end %>
 
+           
 
 
 			
           </ul>
+        </div></li></div></li></div>
         </div>
       </div>
     </nav>

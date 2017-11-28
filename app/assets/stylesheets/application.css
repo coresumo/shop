@@ -21,6 +21,9 @@
 	font-weight: bold;
 	margin-left: 4px;
 }
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
 
 #logid img{
 
@@ -79,15 +82,19 @@
 }
 
 .py-5{
-	font-family: serif;
+	font-family: Roboto;
 	font-size: 15px;
+	color: #696969;		
 }
 .py-5 h1{
-	font-family: serif;
+	font-family: Roboto;
 	text-align: center;
+	color: #696969;		
+
 }
 
 .card-text{
-	font-family: serif;
+	color: #696969;		
+	font-family: Roboto;
 	font-size: 15px;	
 }
